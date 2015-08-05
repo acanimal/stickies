@@ -1,0 +1,26 @@
+	<h3 class="popupTitle">New note</h3>
+
+	<!-- The preview note -->
+	<div id="previewNote" class="note yellow" style="left:0;top:65px;z-index:1">
+		<div class="body"></div>
+		<div class="date"></div>
+		<div class="tags"></div>
+	</div>
+
+	<!-- Note data -->
+	<div id="noteData">
+		<form action="" method="post" class="note-form">
+			<label for="note-body">Text:</label>
+			<textarea name="note-body" class="pr-body" cols="30" rows="6"></textarea>
+
+			<label for="note-tags">Tags:</label>
+			<input type="text" name="note-tags" id="pr-note-tags" class="pr-tags" />
+
+			<label>Color</label>
+			<div class="color yellow"></div>
+			<div class="color blue"></div>
+			<div class="color green"></div>
+
+			<button id="note-submit" href="" class="submit_button">Submit</buton>
+		</form>
+	</div>
